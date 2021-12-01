@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638315369454' stop='1638315369943'>
+    <name>Cookie settings test</name>
+    <title>Cookie settings test</title>
+    <test-cases>
+        <test-case start='1638315369454' status='broken' stop='1638315369943'>
+            <name>should see 7 list items</name>
+            <title>should see 7 list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638315369455' status='passed' stop='1638315369467'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ac2902b1-326e-4076-8983-c80d29376885-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='408fe0b2-7503-4d82-bf16-bbc557204d54-attachment.json' type='application/json' size='639'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638315369474' status='passed' stop='1638315369942'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='89a4d9ef-9d3b-44a4-9c40-4cdceede7fa1-attachment.png' type='image/png' size='499219'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at /Users/redjohnzarra/code/wdio/volvo-test/node_modules/@wdio/utils/build/shim.js:247:38
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at async Context.&lt;anonymous> (/Users/redjohnzarra/code/wdio/volvo-test/test/specs/test-cookie-settings.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

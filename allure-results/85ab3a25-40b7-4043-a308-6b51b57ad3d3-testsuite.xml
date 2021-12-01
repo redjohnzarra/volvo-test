@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638323600812' stop='1638323604596'>
+    <name>Volvo - a million more interactions test</name>
+    <title>Volvo - a million more interactions test</title>
+    <test-cases>
+        <test-case start='1638323600813' status='broken' stop='1638323604595'>
+            <name>should have 'WATCH THE STORY' button and play video after clicking</name>
+            <title>should have 'WATCH THE STORY' button and play video after clicking</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638323600815' status='passed' stop='1638323604074'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a923a03a-0577-47b2-a1b0-141eebb95cb3-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638323604076' status='broken' stop='1638323604595'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ae021887-61cf-4b1c-aa4d-ab8de062c334-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps>
+                        <step start='1638323604125' status='passed' stop='1638323604594'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='5c2f68e3-18c0-47a5-8d64-2a38917233ca-attachment.png' type='image/png' size='327922'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=96.0.4664.55)</message>
+                <stack-trace>0   chromedriver                        0x000000010e415269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x000000010e3a0c33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x000000010df5de28 chromedriver + 171560
+                3   chromedriver                        0x000000010df60ca1 chromedriver + 183457
+                4   chromedriver                        0x000000010df60ac1 chromedriver + 182977
+                5   chromedriver                        0x000000010df60d5c chromedriver + 183644
+                6   chromedriver                        0x000000010df930e6 chromedriver + 389350
+                7   chromedriver                        0x000000010df93591 chromedriver + 390545
+                8   chromedriver                        0x000000010dfc56b4 chromedriver + 595636
+                9   chromedriver                        0x000000010dfb09fd chromedriver + 510461
+                10  chromedriver                        0x000000010dfc3462 chromedriver + 586850
+                11  chromedriver                        0x000000010dfb0c23 chromedriver + 511011
+                12  chromedriver                        0x000000010df8675e chromedriver + 337758
+                13  chromedriver                        0x000000010df87a95 chromedriver + 342677
+                14  chromedriver                        0x000000010e3d18ab __gxx_personality_v0 + 305803
+                15  chromedriver                        0x000000010e3e8863 __gxx_personality_v0 + 399939
+                16  chromedriver                        0x000000010e3edc7f __gxx_personality_v0 + 421471
+                17  chromedriver                        0x000000010e3e9bba __gxx_personality_v0 + 404890
+                18  chromedriver                        0x000000010e3c5e51 __gxx_personality_v0 + 258097
+                19  chromedriver                        0x000000010e405158 __gxx_personality_v0 + 516920
+                20  chromedriver                        0x000000010e4052e1 __gxx_personality_v0 + 517313
+                21  chromedriver                        0x000000010e41c6f8 __gxx_personality_v0 + 612568
+                22  libsystem_pthread.dylib             0x00007ff807e1d514 _pthread_start + 125
+                23  libsystem_pthread.dylib             0x00007ff807e1902f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

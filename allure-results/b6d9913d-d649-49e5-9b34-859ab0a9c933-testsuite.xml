@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638320054128' stop='1638320068008'>
+    <name>Volvo - a million more page test</name>
+    <title>Volvo - a million more page test</title>
+    <test-cases>
+        <test-case start='1638320054128' status='passed' stop='1638320057377'>
+            <name>should have the correct title</name>
+            <title>should have the correct title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638320054130' status='passed' stop='1638320057364'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='59618471-0075-4b03-9767-0e43a31e3364-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638320057365' status='passed' stop='1638320057375'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='bae5a8d7-17bf-4a93-9060-44f49a7c64b3-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638320057378' status='passed' stop='1638320057421'>
+            <name>should have the correct h2 header in body</name>
+            <title>should have the correct h2 header in body</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638320057379' status='passed' stop='1638320057397'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c8eb036f-ec76-484e-822f-172429bf611b-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='f6920cd1-1b19-4641-9c93-00d6fe4ee4e0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638320057403' status='passed' stop='1638320057420'>
+                    <name>GET /session/:sessionId/element/917d60ec-cd1a-40fa-90ee-8857d341c3b1/text</name>
+                    <title>GET /session/:sessionId/element/917d60ec-cd1a-40fa-90ee-8857d341c3b1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='5814bc20-6745-44cc-be3d-c2643b0cdbaf-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638320057421' status='failed' stop='1638320068007'>
+            <name>should have 4 items in safety features section</name>
+            <title>should have 4 items in safety features section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638320057422' status='passed' stop='1638320057436'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='36927048-9c07-4f77-b05e-35038fd277cc-attachment.json' type='application/json' size='139'/>
+                        <attachment title='Response' source='00262697-c5bc-4a20-8d74-53ebc3ecb8a5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638320067441' status='passed' stop='1638320068006'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='88a6933b-705f-424a-9eb1-93d7bb955d9a-attachment.png' type='image/png' size='424877'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`div[data-component='IconCallouts'] > section div[class='ay bw bx by c fr fs ft fu fv fw n']>div`) to be elements array of size
+                
+                Expected: 4
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`div[data-component='IconCallouts'] > section div[class='ay bw bx by c fr fs ft fu fv fw n']>div`) to be elements array of size
+                
+                Expected: 4
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/redjohnzarra/code/wdio/volvo-test/test/specs/test-million-more-page.js:19:33)
+                    at Context.executeAsync (/Users/redjohnzarra/code/wdio/volvo-test/node_modules/@wdio/utils/build/shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (/Users/redjohnzarra/code/wdio/volvo-test/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
