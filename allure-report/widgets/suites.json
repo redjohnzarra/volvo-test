@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "494e5a4f90f8810919c60919c88e93eb",
+    "name" : "Cookie settings test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "6552d80009bd698d4c1091844fd50f03",
+    "name" : "Volvo - a million more page test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "948241d46063f4b90fe8f40d28cc3aaa",
+    "name" : "Volvo - a million more interactions test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "55466b919a87de357a657e5a264459ae",
+    "name" : "Volvo - cookie modal popup test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "10a1cf4cdef949de43d87eded9ed1ddd",
+    "name" : "Volvo - a million more accept cookie test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

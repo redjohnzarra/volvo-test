@@ -1,0 +1,185 @@
+{
+  "uid" : "3464c640b2ee4cb2",
+  "name" : "should detect cookie modal and click cookie settings",
+  "fullName" : "Volvo - cookie modal popup test.should detect cookie modal and click cookie settings",
+  "historyId" : "5399a6a2588762ee92aa49ce4d942c15",
+  "time" : {
+    "start" : 1638340814669,
+    "stop" : 1638340819042,
+    "duration" : 4373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1638340814671,
+        "stop" : 1638340818768,
+        "duration" : 4097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1216f97950519efa",
+        "name" : "Request",
+        "source" : "1216f97950519efa.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1638340818770,
+        "stop" : 1638340818799,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5228fa646752d384",
+        "name" : "Request",
+        "source" : "5228fa646752d384.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "9cc9dc5256b8f73c",
+        "name" : "Response",
+        "source" : "9cc9dc5256b8f73c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1638340818806,
+        "stop" : 1638340818822,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f910b031648690a8",
+        "name" : "Request",
+        "source" : "f910b031648690a8.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "7b37cdd19ab911c3",
+        "name" : "Response",
+        "source" : "7b37cdd19ab911c3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1638340818823,
+        "stop" : 1638340818835,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19293632dd0f4d0c",
+        "name" : "Request",
+        "source" : "19293632dd0f4d0c.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "df5f7c33a9672c5c",
+        "name" : "Response",
+        "source" : "df5f7c33a9672c5c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d940e483-1a24-4543-905c-6f67a0968d10/click",
+      "time" : {
+        "start" : 1638340818839,
+        "stop" : 1638340819041,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo - cookie modal popup test"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo - cookie modal popup test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should detect cookie modal and click cookie settings"
+  }, {
+    "name" : "package",
+    "value" : "Volvo - cookie modal popup test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3464c640b2ee4cb2.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}

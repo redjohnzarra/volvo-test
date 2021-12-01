@@ -1,0 +1,265 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should detect cookie modal and click cookie settings",
+    "uid" : "3464c640b2ee4cb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340814669,
+      "stop" : 1638340819042,
+      "duration" : 4373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should click 'Accept' when cookie modal shows up",
+    "uid" : "dc4934620d0450b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340814675,
+      "stop" : 1638340819014,
+      "duration" : 4339
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have the correct title",
+    "uid" : "7dc61a8fbc377936",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819022,
+      "stop" : 1638340819034,
+      "duration" : 12
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have the correct h2 header in body",
+    "uid" : "a8e53cc208c5d62e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819034,
+      "stop" : 1638340819071,
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should see 7 list items",
+    "uid" : "e6b662171a888706",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819054,
+      "stop" : 1638340819099,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 4 items in safety features section",
+    "uid" : "72f083d2cd13e4f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819071,
+      "stop" : 1638340819113,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 'Your Privacy' item as default selected",
+    "uid" : "1b27c9b26a7e548a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819099,
+      "stop" : 1638340819195,
+      "duration" : 96
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 4 items in video testimonials section",
+    "uid" : "4607a3abc973b7a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819114,
+      "stop" : 1638340819244,
+      "duration" : 130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 'If you delete all your cookies you will have to update your preferences with us again' text in body section",
+    "uid" : "69e28f169081eb85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819195,
+      "stop" : 1638340819320,
+      "duration" : 125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 8 items in model carousel section",
+    "uid" : "a88541e20380cb67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819245,
+      "stop" : 1638340819325,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should switch to 'Strictly Necessary Cookies' item when clicked",
+    "uid" : "af4b69998c3a6d12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819321,
+      "stop" : 1638340819555,
+      "duration" : 234
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have footer section and have 4 clickable items",
+    "uid" : "845f5c573824b6a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819328,
+      "stop" : 1638340819423,
+      "duration" : 95
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should switch to 'Targeting and Advertising Cookies' item when clicked",
+    "uid" : "9da8ab1a5096dc0b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819556,
+      "stop" : 1638340819703,
+      "duration" : 147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 'WATCH THE STORY' button and play video after clicking",
+    "uid" : "795be268d97275ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819633,
+      "stop" : 1638340820832,
+      "duration" : 1199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should set 'Targeting and Advertising Cookies' to Active",
+    "uid" : "8c388022b1d53bfa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819704,
+      "stop" : 1638340819852,
+      "duration" : 148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should click 'Save settings' button in cookies modal and close the modal",
+    "uid" : "1477dd4329748f35",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340819852,
+      "stop" : 1638340820444,
+      "duration" : 592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should have 'LEARN MORE ABOUT CAR SAFETY' button and go to car safety page and back",
+    "uid" : "3a136a7d465107ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340820832,
+      "stop" : 1638340825240,
+      "duration" : 4408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should click the learn more button for 'Decades of innovation' section",
+    "uid" : "2029c8eb7a2f59dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340825240,
+      "stop" : 1638340829157,
+      "duration" : 3917
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should verify mild car hybrids link, carousel section, and click first model in carousel",
+    "uid" : "bf275e32967e325",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340829157,
+      "stop" : 1638340834388,
+      "duration" : 5231
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "should click detect and click the 'Social Media' link in the footer section",
+    "uid" : "d2c50b3c08b380ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638340834389,
+      "stop" : 1638340837112,
+      "duration" : 2723
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  } ],
+  "name" : "behaviors"
+}

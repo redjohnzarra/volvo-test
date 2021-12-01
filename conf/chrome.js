@@ -15,9 +15,24 @@ const config = {
     // according to your user and key information. However, if you are using a private Selenium
     // backend you should define the host address, port, and path here.
     //
-    hostname: 'localhost',
-    port: 4444,
+
+    // hostname: 'localhost',
+    // port: 4444,
+    // path: '/',
+
+    hostname: 'chromedriver',
     path: '/',
+    capabilities: [
+        {
+            // Set maxInstances to 1 if screen recordings are enabled:
+            // maxInstances: 1,
+            browserName: 'chrome',
+            'goog:chromeOptions': {
+                // Disable headless mode if screen recordings are enabled:
+                args: ['--headless', '--window-size=1440,900'],
+            },
+        },
+    ],
     //
     // ==================
     // Specify Test Files
