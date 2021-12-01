@@ -1,9 +1,11 @@
 FROM alpine:3.14
 
-RUN tini \
+RUN apk --no-cache add \
+    tini \
     nodejs \
     npm \
     ffmpeg \
+    android-tools \
     && npm install -g \
     npm@latest \
     # Clean up obsolete files:
@@ -24,6 +26,7 @@ ENV NODE_PATH=/usr/lib/wdio/node_modules
 ENV PATH=$PATH:/usr/lib/wdio/node_modules/.bin
 
 COPY bin/wait-for-hosts.sh /usr/local/bin/wait-for-hosts
+RUN chmod +x /usr/local/bin/wait-for-hosts
 
 WORKDIR /app
 

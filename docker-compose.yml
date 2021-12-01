@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   chromedriver:
-    image: blueimp/chromedriver
+    image: redjohnzarra/chromedriver
     tmpfs: /tmp
     environment:
       - DISABLE_X11=false
@@ -10,14 +10,18 @@ services:
     volumes:
       - ./assets:/home/webdriver/assets:ro
     ports:
-      - 5999
+      - 127.0.0.1:5990:5990
   wdio:
-    image: blueimp/wdio
+    image: redjohnzarra/wdio
     read_only: true
     tmpfs:
       - /tmp
+    environment:
+      - WAIT_FOR_HOSTS=chromedriver:4444
     volumes:
       - .:/app:ro
       - ./reports:/app/reports
+      - ./allure-report:/app/allure-report
+      - ./allure-results:/app/allure-results
     depends_on:
       - chromedriver
