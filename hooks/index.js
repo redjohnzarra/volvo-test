@@ -22,15 +22,6 @@ const config = {
             cmds.saveAndDiffScreenshot,
             true
         );
-        browser.addCommand(
-            'focus',
-            function () {
-                browser.execute(function (domElement) {
-                    domElement.focus();
-                }, this);
-            },
-            true
-        );
         if (browser.config.appium)
             await browser.updateSettings(browser.config.appium);
         if (browser.config.maximizeWindow) await browser.maximizeWindow();

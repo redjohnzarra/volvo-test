@@ -5,8 +5,6 @@ describe('Volvo - a million more page test', () => {
         await expect(browser).toHaveTitle(
             'A million more | Volvo Cars - International'
         );
-
-        await browser.saveAndDiffScreenshot('A million more');
     });
 
     it('should have the correct h2 header in body', async () => {

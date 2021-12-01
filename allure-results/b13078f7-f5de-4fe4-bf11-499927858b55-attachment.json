@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[data-component='VideoTestimonials'] div[data-autoid='videoTestimonials:container']:first-child video"
-}
